@@ -25,9 +25,6 @@ yarn-error.log*
 /src/conditionally_Rendering
 /src/context_API
 /src/customHooks
-/src/keys
 /src/pages
-/src/props
 /src/useContext
 /src/useRef
-/src/useState
