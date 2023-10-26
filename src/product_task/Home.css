@@ -1,0 +1,144 @@
+.prodcts {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .prodcts th,
+  .prodcts td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border : 1px solid black;
+  }
+  .prodcts td {
+    padding: 8px;
+    padding-bottom: 8px;
+  }
+
+  .prodcts th {
+    cursor: pointer;
+  }
+
+  .actionButtons {
+    background-color: rgb(255, 255, 167);
+    border: none;
+  }
+  .actionButtons > i {
+    cursor: pointer;
+    padding: 3px;
+    margin: auto;
+    color: rgb(170, 165, 3);
+    border-color: rgb(170, 165, 3);
+    border-radius: 10px;
+  }
+  .actionButtons :hover {
+    background-color: rgb(170, 165, 3);
+    color: rgb(237, 255, 37);
+    border: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+  .title {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-right: 20%;
+  }
+  .search {
+    width: 20%;
+    margin-top: 2rem;
+    font-size: 1rem;
+    border: none;
+    padding-left: 20px;
+    background-color: rgb(252, 250, 189);
+  }
+  .search:hover {
+    border: 1px solid rgb(170, 165, 3);
+  }
+
+  .confirmBox {
+    visibility: hidden;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 21, 21, 0.544);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .innerBox {
+    background-color: rgb(96, 96, 96);
+    height: 30%;
+    width: 30%;
+  }
+  .innerBox > p {
+    font-size: 1.5rem;
+    padding: 1.2rem;
+  }
+  .innerBox > button {
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 25%;
+    width: 20%;
+    cursor: pointer;
+  }
+  .confirmBox.deactive {
+    visibility: visible;
+  }
+
+  .linkDashboard {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    color: rgb(138, 134, 4);
+  }
+  .linkDashboard:hover {
+    color: rgb(170, 182, 35);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+  body {
+    color: black;
+    background: rgb(255, 255, 167);
+  }
+
+  .pagination-container {
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0;
+    justify-content: center;
+  }
+
+  .pagination-number,
+  .pagination-button{
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0.25rem;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: .2rem;
+  }
+
+  .pagination-number:hover,
+  .pagination-button:not(.disabled):hover {
+    background: #fff;
+  }
+
+
+  .active {
+    color: rgb(237, 255, 37);
+    background: rgb(138, 134, 4);
+  }
