@@ -1,17 +1,17 @@
 import './App.css';
 
-// import Practice from './practice/PracticeMain';
-//import Prods from './product_task/Home';
-import BoxCompo from './chakra-components/Box';
-import FlecCompo from './chakra-components/Flex';
+// import ReactPractice from './practice/ReactPractice';
+// import Prods from './product_task/Home';
+// import ChakraPractice from './practice/ChakraPractice';
+import ChakraPDPPage from './chakra_pdp/MainContainer';
 
 function App() {
   return (
       <div className='App'>
-        {/* <Practice /> */}
+        {/* <ReactPractice /> */}
         {/* <Prods /> */}
-        <BoxCompo />
-        <FlecCompo />
+        {/* <ChakraPractice /> */}
+        <ChakraPDPPage />
       </div>
   );
 }

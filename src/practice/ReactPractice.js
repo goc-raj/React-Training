@@ -26,7 +26,7 @@ import ContextPage from '../context_API/MainPage';
 import MyForm from '../form/SampleForm';
 import ReactForm from '../form/ReactForm';
 
-export default function Practice() {
+export default function ReactPractice() {
     return (
         <>
             <OriginalLogo />

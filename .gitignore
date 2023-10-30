@@ -22,4 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/src/chakra-components
+src/chakra_pdp
+src/chakra-responsive
+src/chakra-styled
+src/Images
