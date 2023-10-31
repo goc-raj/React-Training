@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 src/chakra_pdp
-src/chakra-responsive
-src/chakra-styled
+src/chakra-theme
+src/chakra-compo-styld
 src/Images
